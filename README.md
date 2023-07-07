@@ -74,8 +74,8 @@ Users should be able to:
 
 ### Links
 
-- [Repo URL]()
-- [Live site URL]()
+- [Repo URL](https://github.com/Ajayfrizzy/fylo-landing-page.git)
+- [Live site URL](https://ajayfrizzy.github.io/fylo-landing-page/)
 
 ## My process
 
