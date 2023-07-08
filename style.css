@@ -60,6 +60,15 @@ ul li{
     color: var(--very-Dark-Blue);
 }
 
+.nav a:hover{
+    color: #fff;
+    background: var(--very-Dark-Blue);
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
 .illustration-1 img{
     width: 100%;
 }
