@@ -25,11 +25,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .container{
     max-width: var(--desktop);
     margin: 0 auto;
     padding: 0 30px;
-    width: 100%;
 }
 
 h1, p{
