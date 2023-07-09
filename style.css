@@ -25,14 +25,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .container{
     max-width: var(--desktop);
     margin: 0 auto;
     padding: 0 30px;
+    overflow-x: hidden;
 }
 
 h1, p{
@@ -66,11 +63,10 @@ ul li{
 
 .nav a:hover{
     color: #fff;
-    background: var(--very-Dark-Blue);
-    border-radius: 8px;
-    padding: 10px;
+    background-color: var(--very-Dark-Blue);
+    padding: 10px 15px;
     margin-right: 10px;
-    font-size: 18px;
+    border-radius: 5px;
 }
 
 .illustration-1 img{
@@ -333,18 +329,14 @@ i{
     .int{
         display: flex;
         flex-flow: column;
-    }
-
-    .email{
-        width: 85vw !important;
-        padding: 10px 15px !important;
+        width: 85vw;
+        padding: 10px 15px;
         border-radius: 2px;
     }
 
     .btn-top{
-        width: 85vw !important;
-        padding: 10px 15px;
-        border-radius: 2px;
+        width: 70vw;
+        padding: 10px 0;
         margin: 10px auto;
     }
 
