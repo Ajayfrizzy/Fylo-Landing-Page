@@ -45,6 +45,7 @@ nav .container{
 
 nav h3{
     display: none;
+    color: #fffcfc;
 }
 
 nav .nav{
@@ -242,6 +243,13 @@ a{
     color: #fff;
 }
 
+.ft-2 a:hover{
+    color: var(--very-Dark-Blue);
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .p{
     margin-top: 10px;
 }
@@ -266,6 +274,7 @@ i{
     padding: 10px;
     margin-right: 10px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .b-lk, .social{
@@ -298,11 +307,6 @@ i{
 
     nav .nav {
         display: none;
-    }
-
-    nav h3{
-        display: block;
-        color: #fffcfc;
     }
 
     .after-nav .container{
@@ -365,11 +369,7 @@ i{
     }
 
     .fb .container{
-        display: flex;
-        flex-flow: column;
-        width: 100vw;
         min-height: 30vh;
-        padding: 10px 15px;
     }
 
     .access{
@@ -383,7 +383,7 @@ i{
 
     .access p{
         font-size: 15px;
-        width: 80vw;
+        width: 100%;
     }
 
     .int-down{
