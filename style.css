@@ -309,6 +309,10 @@ i{
         display: none;
     }
 
+    nav h3{
+        display: block;
+    }
+
     .after-nav .container{
         display: flex;
         flex-flow: column;
